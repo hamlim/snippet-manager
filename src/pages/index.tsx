@@ -12,7 +12,7 @@ export async function Page() {
         <title>Parcel + Cloudflare Workers + React Server App</title>
       </head>
       <body>
-        <h1>Parcel + Cloudflare Workers + React Server App</h1>
+        <h1 className="text-3xl font-bold underline">Parcel + Cloudflare Workers + React Server App</h1>
         <p>This page is a React Server Component! Edit <code>src/Page.tsx</code> to get started.</p>
         <p>Here is a client component: <Counter /></p>
         <hr />

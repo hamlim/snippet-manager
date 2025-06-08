@@ -18,11 +18,14 @@
     "build": "yarn clean && parcel build"
   },
   "devDependencies": {
-    "concurrently": "9.1.2",
+    "@tailwindcss/postcss": "4.1.8",
     "@types/bun": "latest",
     "@types/react": "19.1.6",
     "@types/react-dom": "19.1.6",
+    "concurrently": "9.1.2",
     "parcel": "2.15.2",
+    "postcss": "8.5.4",
+    "tailwindcss": "4.1.8",
     "typescript": "5.8.3"
   },
   "dependencies": {

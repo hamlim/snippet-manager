@@ -5,7 +5,8 @@ import '../client';
 import { Counter } from '../counter';
 import { action, name } from '../actions';
 
-export async function Page() {
+export async function Page({req}: {req: Request}) {
+  console.log(req.url);
   return (
     <html lang="en">
       <head>

@@ -15,7 +15,7 @@
     "clean": "rm -rf dist/{client,server*}",
     "watch": "parcel watch",
     "start": "wrangler dev",
-    "build": "yarn clean && parcel build"
+    "build": "yarn clean && parcel build && bun ./postbuild.ts"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.1.8",
